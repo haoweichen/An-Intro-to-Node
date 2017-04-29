@@ -11,10 +11,10 @@ For the second function, you will make a simple function that uses console.log t
 The interesting thing about this function is that you don't have to have all the inputs to run.
 Your function should print a string in the following format:
 
-<code>sayHelloTo(); // throws 
-sayHelloTo("Phil"); // logs: Hello, Phil! 
-sayHelloTo("Phil", "Barresi"); //logs: Hello, Phil Barresi. I hope you are having a good day!
-sayHelloTo("Phil", "Barresi", "Mr."); // logs: Hello, Mr. Phil Barresi! Have a good evening!</code>
+<code><br>sayHelloTo(); // throws</br> 
+<br>sayHelloTo("Phil"); // logs: Hello, Phil!</br>
+<br>sayHelloTo("Phil", "Barresi"); //logs: Hello, Phil Barresi. I hope you are having a good day!</br>
+<br>sayHelloTo("Phil", "Barresi", "Mr."); // logs: Hello, Mr. Phil Barresi! Have a good evening!</code></br>
 
 <br><strong>cupsOfCoffee(howManyCups)</strong></br>
 For the third function, you will create and return a simple song called 99 Cups of Coffee on the Desk.
