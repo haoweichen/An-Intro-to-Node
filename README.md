@@ -20,6 +20,7 @@ sayHelloTo("Phil", "Barresi", "Mr."); // logs: Hello, Mr. Phil Barresi! Have a g
 For the third function, you will create and return a simple song called 99 Cups of Coffee on the Desk.
 The lyrics of this song grow longer depending on how many cups of coffee there are on the desk.
 If you run cupsOfCoffee(5) it would return:
+<code>
 <p>5 cups of coffee on the desk! 5 cups of coffee!</p> 
 <p>Pick one up, drink the cup, 4 cups of coffee on the desk!</p>
 <p>4 cups of coffee on the desk! 4 cups of coffee! </p>
@@ -30,6 +31,7 @@ If you run cupsOfCoffee(5) it would return:
 <p>Pick one up, drink the cup, 1 cup of coffee on the desk!</p>
 <p>1 cup of coffee on the desk! 1 cup of coffee!</p>
 <p>Pick it up, drink the cup, no more coffee left on the desk!</p>
+</code>
 Take note for the subtle grammar changes!
 
 
