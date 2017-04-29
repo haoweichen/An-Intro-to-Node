@@ -23,16 +23,12 @@ If you run cupsOfCoffee(5) it would return:
 
 5 cups of coffee on the desk! 5 cups of coffee! 
 Pick one up, drink the cup, 4 cups of coffee on the desk!
-
 4 cups of coffee on the desk! 4 cups of coffee! 
 Pick one up, drink the cup, 3 cups of coffee on the desk!
-
 3 cups of coffee on the desk! 3 cups of coffee! 
 Pick one up, drink the cup, 2 cups of coffee on the desk!
-
 2 cups of coffee on the desk! 2 cups of coffee! 
 Pick one up, drink the cup, 1 cup of coffee on the desk!
-
 1 cup of coffee on the desk! 1 cup of coffee! 
 Pick it up, drink the cup, no more coffee left on the desk!
 
