@@ -46,7 +46,7 @@ For your final function, you will take in a paragraph and randomize the sentence
 console.log(randomizeSentences(paragraph));</pre></code>
 Would print something like:
 <code><pre>You can tell that I am a paragraph because there are multiple sentences that are split up by punctuation marks. I am a paragraph. Grammar can be funny, so I will only put in paragraphs with periods, exclamation marks, and question marks -- no quotations.  Hello, world!
-This one is tricky! You'll have to work with string manipulation, and probably an array or two as well.</pre><code>
+This one is tricky! You'll have to work with string manipulation, and probably an array or two as well.</pre></code>
 
 
 <br><strong>Error Checking</strong></br>
