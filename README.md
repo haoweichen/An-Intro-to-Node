@@ -21,17 +21,17 @@ For the third function, you will create and return a simple song called 99 Cups 
 The lyrics of this song grow longer depending on how many cups of coffee there are on the desk.
 If you run cupsOfCoffee(5) it would return:
 
-<br>5 cups of coffee on the desk! 5 cups of coffee!</br> 
-<br>Pick one up, drink the cup, 4 cups of coffee on the desk!</br>
-<br>4 cups of coffee on the desk! 4 cups of coffee!</br>
-<br>Pick one up, drink the cup, 3 cups of coffee on the desk!</br>
-<br>3 cups of coffee on the desk! 3 cups of coffee!</br>
-<br>Pick one up, drink the cup, 2 cups of coffee on the desk!</br>
-<br>2 cups of coffee on the desk! 2 cups of coffee!</br>
-<br>Pick one up, drink the cup, 1 cup of coffee on the desk!</br>
-<br>1 cup of coffee on the desk! 1 cup of coffee!</br>
-<br>Pick it up, drink the cup, no more coffee left on the desk!</br>
-Take note for the subtle grammar changes!
+<pre><code>5 cups of coffee on the desk! 5 cups of coffee! 
+Pick one up, drink the cup, 4 cups of coffee on the desk!
+4 cups of coffee on the desk! 4 cups of coffee!
+Pick one up, drink the cup, 3 cups of coffee on the desk!
+3 cups of coffee on the desk! 3 cups of coffee!
+Pick one up, drink the cup, 2 cups of coffee on the desk!
+2 cups of coffee on the desk! 2 cups of coffee!
+Pick one up, drink the cup, 1 cup of coffee on the desk!
+1 cup of coffee on the desk! 1 cup of coffee!
+Pick it up, drink the cup, no more coffee left on the desk!
+Take note for the subtle grammar changes!</code><pre>
 
 
 <br><strong>occurrencesOfSubstring(fullString, substring)</strong></br>
