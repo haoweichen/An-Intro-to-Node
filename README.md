@@ -11,10 +11,10 @@ For the second function, you will make a simple function that uses console.log t
 The interesting thing about this function is that you don't have to have all the inputs to run.
 Your function should print a string in the following format:
 
-sayHelloTo(); // throws 
+<code>sayHelloTo(); // throws 
 sayHelloTo("Phil"); // logs: Hello, Phil! 
 sayHelloTo("Phil", "Barresi"); //logs: Hello, Phil Barresi. I hope you are having a good day!
-sayHelloTo("Phil", "Barresi", "Mr."); // logs: Hello, Mr. Phil Barresi! Have a good evening!
+sayHelloTo("Phil", "Barresi", "Mr."); // logs: Hello, Mr. Phil Barresi! Have a good evening!</code>
 
 <br><strong>cupsOfCoffee(howManyCups)</strong></br>
 For the third function, you will create and return a simple song called 99 Cups of Coffee on the Desk.
@@ -43,7 +43,7 @@ However, you must also factor in a case where there are overlaps! When you call 
 <br><strong>randomizeSentences(paragraph)</strong></br>
 For your final function, you will take in a paragraph and randomize the sentences in it.
 
-var paragraph = "Hello, world! I am a paragraph. You can tell that I am a paragraph because there are multiple sentences that are split up by punctuation marks. Grammar can be funny, so I will only put in paragraphs with periods, exclamation marks, and question marks -- no quotations.";
+<code>var paragraph = "Hello, world! I am a paragraph. You can tell that I am a paragraph because there are multiple sentences that are split up by punctuation marks. Grammar can be funny, so I will only put in paragraphs with periods, exclamation marks, and question marks -- no quotations.";</code>
 
 console.log(randomizeSentences(paragraph));
 Would print something like:
