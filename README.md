@@ -31,12 +31,12 @@ Pick one up, drink the cup, 2 cups of coffee on the desk!
 Pick one up, drink the cup, 1 cup of coffee on the desk!
 1 cup of coffee on the desk! 1 cup of coffee!
 Pick it up, drink the cup, no more coffee left on the desk!
-Take note for the subtle grammar changes!</code><pre>
+Take note for the subtle grammar changes!</code></pre>
 
 
 <br><strong>occurrencesOfSubstring(fullString, substring)</strong></br>
 For the fourth function, you will calculate how many times a substring occurs in a given string.
-For example, calling countOccurrencesOfSubstring("hello world", "o");should return 2, because the letter o appears two times in the string.
+For example, calling <code>countOccurrencesOfSubstring("hello world", "o");</code>should return 2, because the letter o appears two times in the string.
 However, you must also factor in a case where there are overlaps! When you call <code>countOccurrencesOfSubstring("Helllllllo, class!", "ll");</code> should return 6.
 
 
