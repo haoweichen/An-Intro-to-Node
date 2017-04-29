@@ -34,10 +34,12 @@ If you run cupsOfCoffee(5) it would return:
 </span>
 Take note for the subtle grammar changes!
 
+
 <br><strong>occurrencesOfSubstring(fullString, substring)</strong></br>
 For the fourth function, you will calculate how many times a substring occurs in a given string.
 For example, calling countOccurrencesOfSubstring("hello world", "o");should return 2, because the letter o appears two times in the string.
-However, you must also factor in a case where there are overlaps! When you call <span style="background-color:#CCCCCC">countOccurrencesOfSubstring("Helllllllo, class!", "ll");</span> should return 6.
+However, you must also factor in a case where there are overlaps! When you call <span style="background-color:#FFFF00">countOccurrencesOfSubstring("Helllllllo, class!", "ll");</span> should return 6.
+
 
 <br><strong>randomizeSentences(paragraph)</strong></br>
 For your final function, you will take in a paragraph and randomize the sentences in it.
@@ -50,10 +52,13 @@ Would print something like:
 You can tell that I am a paragraph because there are multiple sentences that are split up by punctuation marks. I am a paragraph. Grammar can be funny, so I will only put in paragraphs with periods, exclamation marks, and question marks -- no quotations.  Hello, world!
 This one is tricky! You'll have to work with string manipulation, and probably an array or two as well.
 
+
 <br><strong>Error Checking</strong></br>
 Expect and account for bad input, and handle it accordingly! You can throw "A string describing an error" when given bad input. You can read about throwing on the MDN (Links to an external site.)Links to an external site.
 You should throw if data is not of an expected type: ie, expecting a number and receiving an integer.
 You should throw if your data is an out of bounds situation; ie: receiving a negative side length for certain values, or data that does not make sense given the requirements of the function.
+
+
 <br><strong>Requirements</strong></br>
 You will have to write each function
 You must check that all arguments are valid and of the proper type
