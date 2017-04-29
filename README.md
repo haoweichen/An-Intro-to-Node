@@ -20,18 +20,17 @@ sayHelloTo("Phil", "Barresi", "Mr."); // logs: Hello, Mr. Phil Barresi! Have a g
 For the third function, you will create and return a simple song called 99 Cups of Coffee on the Desk.
 The lyrics of this song grow longer depending on how many cups of coffee there are on the desk.
 If you run cupsOfCoffee(5) it would return:
-<code>
-<p>5 cups of coffee on the desk! 5 cups of coffee!</p> 
-<p>Pick one up, drink the cup, 4 cups of coffee on the desk!</p>
-<p>4 cups of coffee on the desk! 4 cups of coffee! </p>
-<p>Pick one up, drink the cup, 3 cups of coffee on the desk!</p>
-<p>3 cups of coffee on the desk! 3 cups of coffee!</p>
-<p>Pick one up, drink the cup, 2 cups of coffee on the desk!</p>
-<p>2 cups of coffee on the desk! 2 cups of coffee!</p>
-<p>Pick one up, drink the cup, 1 cup of coffee on the desk!</p>
-<p>1 cup of coffee on the desk! 1 cup of coffee!</p>
-<p>Pick it up, drink the cup, no more coffee left on the desk!</p>
-</code>
+
+<br>5 cups of coffee on the desk! 5 cups of coffee!</br> 
+<br>Pick one up, drink the cup, 4 cups of coffee on the desk!</br>
+<br>4 cups of coffee on the desk! 4 cups of coffee!</br>
+<br>Pick one up, drink the cup, 3 cups of coffee on the desk!</br>
+<br>3 cups of coffee on the desk! 3 cups of coffee!</br>
+<br>Pick one up, drink the cup, 2 cups of coffee on the desk!</br>
+<br>2 cups of coffee on the desk! 2 cups of coffee!</br>
+<br>Pick one up, drink the cup, 1 cup of coffee on the desk!</br>
+<br>1 cup of coffee on the desk! 1 cup of coffee!</br>
+<br>Pick it up, drink the cup, no more coffee left on the desk!</br>
 Take note for the subtle grammar changes!
 
 
