@@ -41,7 +41,7 @@ Take note for the subtle grammar changes!
 <br><strong>occurrencesOfSubstring(fullString, substring)</strong></br>
 For the fourth function, you will calculate how many times a substring occurs in a given string.
 For example, calling countOccurrencesOfSubstring("hello world", "o");should return 2, because the letter o appears two times in the string.
-However, you must also factor in a case where there are overlaps! When you call <font style="background-color:gray">countOccurrencesOfSubstring("Helllllllo, class!", "ll");</font>  should return 6.
+However, you must also factor in a case where there are overlaps! When you call <font style="background-color:#AAAAAA">countOccurrencesOfSubstring("Helllllllo, class!", "ll");</font>  should return 6.
 
 <br><strong>randomizeSentences(paragraph)</strong></br>
 For your final function, you will take in a paragraph and randomize the sentences in it.
