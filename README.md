@@ -20,7 +20,6 @@ sayHelloTo("Phil", "Barresi", "Mr."); // logs: Hello, Mr. Phil Barresi! Have a g
 For the third function, you will create and return a simple song called 99 Cups of Coffee on the Desk.
 The lyrics of this song grow longer depending on how many cups of coffee there are on the desk.
 If you run cupsOfCoffee(5) it would return:
-<span style="background-color:#CCCCCC">
 <p>5 cups of coffee on the desk! 5 cups of coffee!</p> 
 <p>Pick one up, drink the cup, 4 cups of coffee on the desk!</p>
 <p>4 cups of coffee on the desk! 4 cups of coffee! </p>
@@ -31,14 +30,13 @@ If you run cupsOfCoffee(5) it would return:
 <p>Pick one up, drink the cup, 1 cup of coffee on the desk!</p>
 <p>1 cup of coffee on the desk! 1 cup of coffee!</p>
 <p>Pick it up, drink the cup, no more coffee left on the desk!</p>
-</span>
 Take note for the subtle grammar changes!
 
 
 <br><strong>occurrencesOfSubstring(fullString, substring)</strong></br>
 For the fourth function, you will calculate how many times a substring occurs in a given string.
 For example, calling countOccurrencesOfSubstring("hello world", "o");should return 2, because the letter o appears two times in the string.
-However, you must also factor in a case where there are overlaps! When you call <span style="background-color:#FFFF00">countOccurrencesOfSubstring("Helllllllo, class!", "ll");</span> should return 6.
+However, you must also factor in a case where there are overlaps! When you call <code>countOccurrencesOfSubstring("Helllllllo, class!", "ll");</code> should return 6.
 
 
 <br><strong>randomizeSentences(paragraph)</strong></br>
