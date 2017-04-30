@@ -11,10 +11,12 @@ For the second function, you will make a simple function that uses console.log t
 The interesting thing about this function is that you don't have to have all the inputs to run.
 Your function should print a string in the following format:
 
-<pre><code>sayHelloTo(); // throws
+```javascript
+sayHelloTo(); // throws
 sayHelloTo("Phil"); // logs: Hello, Phil!
 sayHelloTo("Phil", "Barresi"); //logs: Hello, Phil Barresi. I hope you are having a good day!
-sayHelloTo("Phil", "Barresi", "Mr."); // logs: Hello, Mr. Phil Barresi! Have a good evening!</code></pre>
+sayHelloTo("Phil", "Barresi", "Mr."); // logs: Hello, Mr. Phil Barresi! Have a good evening!
+```
 
 <br><strong>cupsOfCoffee(howManyCups)</strong></br>
 For the third function, you will create and return a simple song called 99 Cups of Coffee on the Desk.
@@ -36,21 +38,21 @@ Take note for the subtle grammar changes!</code></pre>
 
 <br><strong>occurrencesOfSubstring(fullString, substring)</strong></br>
 For the fourth function, you will calculate how many times a substring occurs in a given string.
-For example, calling <code>countOccurrencesOfSubstring("hello world", "o");</code>should return 2, because the letter o appears two times in the string.
-However, you must also factor in a case where there are overlaps! When you call <code>countOccurrencesOfSubstring("Helllllllo, class!", "ll");</code> should return 6.
+For example, calling ```javascript countOccurrencesOfSubstring("hello world", "o");```should return 2, because the letter o appears two times in the string.
+However, you must also factor in a case where there are overlaps! When you call ```javascript countOccurrencesOfSubstring("Helllllllo, class!", "ll");``` should return 6.
 
 
 <br><strong>randomizeSentences(paragraph)</strong></br>
 For your final function, you will take in a paragraph and randomize the sentences in it.
-<pre><code>var paragraph = "Hello, world! I am a paragraph. You can tell that I am a paragraph because there are multiple sentences that are split up by punctuation marks. Grammar can be funny, so I will only put in paragraphs with periods, exclamation marks, and question marks -- no quotations.";
-console.log(randomizeSentences(paragraph));</code></pre>
+```javascript var paragraph = "Hello, world! I am a paragraph. You can tell that I am a paragraph because there are multiple sentences that are split up by punctuation marks. Grammar can be funny, so I will only put in paragraphs with periods, exclamation marks, and question marks -- no quotations.";
+console.log(randomizeSentences(paragraph));```
 Would print something like:
-<pre><code>You can tell that I am a paragraph because there are multiple sentences that are split up by punctuation marks. I am a paragraph. Grammar can be funny, so I will only put in paragraphs with periods, exclamation marks, and question marks -- no quotations.  Hello, world!
-This one is tricky! You'll have to work with string manipulation, and probably an array or two as well.</code></pre>
+```javascriptYou can tell that I am a paragraph because there are multiple sentences that are split up by punctuation marks. I am a paragraph. Grammar can be funny, so I will only put in paragraphs with periods, exclamation marks, and question marks -- no quotations.  Hello, world!
+This one is tricky! You'll have to work with string manipulation, and probably an array or two as well.```
 
 
 <br><strong>Error Checking</strong></br>
-Expect and account for bad input, and handle it accordingly! You can <code>throw "A string describing an error"</code> when given bad input. You can read about throwing on the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw">MDN</a>.
+Expect and account for bad input, and handle it accordingly! You can ```javascriptthrow "A string describing an error"``` when given bad input. You can read about throwing on the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw">MDN</a>.
 You should throw if data is not of an expected type: ie, expecting a number and receiving an integer.
 You should throw if your data is an out of bounds situation; ie: receiving a negative side length for certain values, or data that does not make sense given the requirements of the function.
 
