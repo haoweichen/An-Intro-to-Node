@@ -52,8 +52,7 @@ This one is tricky! You'll have to work with string manipulation, and probably a
 
 
 <br><strong>Error Checking</strong></br>
-Expect and account for bad input, and handle it accordingly! You can ```javascript
-throw "A string describing an error"``` when given bad input. You can read about throwing on the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw">MDN</a>.
+Expect and account for bad input, and handle it accordingly! You can ```javascript throw "A string describing an error";``` when given bad input. You can read about throwing on the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw">MDN</a>.
 You should throw if data is not of an expected type: ie, expecting a number and receiving an integer.
 You should throw if your data is an out of bounds situation; ie: receiving a negative side length for certain values, or data that does not make sense given the requirements of the function.
 
